@@ -1,43 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Nastya’s Card</title>
     <style>
-      /* Styling */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            text-align: center;
+            padding: 20px;
+        }
+
+       
+        section {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: left;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        }
+
+       
+        h2 {
+            font-size: 24px;
+        }
+
+       
+        p {
+            font-size: 16px;
+        }
+
+        
+        img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+       
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        strong {
+            font-weight: bold;
+        }
     </style>
-  </head>
-  </head>
-    <body style="background-color:lavenderblush;">
-    <header>
-        <div style="text-align:center">
-       <h1>Nastya</h1>
-       <img src='photo.jpg'/>
-       </div>
-    </header>
-    <main>
-      <section aria-labelledby="bio-heading">
+</head>
+<body style="background-color: lavenderblush;">
+<header>
+    <div style="text-align:center">
+        <h1>Anastasia,</h1>
+        <h2>a student of</h2>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_FHJ_rgb.jpg' alt="Austrian Flag">
+    </div>
+</header>
+<main>
+    <section aria-labelledby="bio-heading">
         <h2 id="bio-heading">Bio</h2>
-        <p>Coffee lover ☕️</p>
+        <p>Hi! I'm Nastya, a digital marketing enthusiast who tried her best in basics HTML and CSS skills. I hope this page won't make you cry in case you are a person from a programming world.</p>
+        <p>Here are 3 main facts about me:</p>
+        <p>COS23 student 👩🏼‍🎓</p>
         <p>Hedonist 🤌</p>
         <p>Digital marketer 👩🏻‍💻</p>
-        </section>
-  
-      <section aria-labelledby="hobbies-heading">
-        <h2 id="hobbies-heading">Hobbies</h2>
-        <p>Reading 📚</p>
-        <p>Pilates 🤸🏻‍♀️</p>
-        <p>TikTok content creator 📲</p>
-      </section>
-      <section aria-labelledby="workxp-heading">
+    </section>
+
+    <section aria-labelledby="workxp-heading">
         <h2 id="workxp-heading">Work Experience</h2>
-        <p>Five years of an experience in a Digital Marketing with a focus on Brandformance and Performance solutions for such companies as: Apple, Unilever, Nestle, Dyson, Toyota, etc.</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=MlnlS2KmM0ngxez3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-    </iframe>
-      </section>
-    </main>
-    <script>
-      /* Scripting */
-    </script>
-  </body>
-</html>
+        <p><strong>Media Planning Lead INSEA</strong>
+            <br>Hybrid Europe, Remote
+            <br>Working on Indian and South-East Asian markets.
+            <br>Clients: GroupM, OMD, Publicis Media, Dentsu Aegis Network, etc.
+            <br>Jul 2023 - Present
+            <br>Key Responsibilities:
+            <br>• Building the business process of the Media Planning department in the INSEA region;
+            <br>• Leading the Media Planning process in the INSEA region from the brief receiving to Media Strategy and Media Plan delivery;
+            <br>• Coordinating Account teams and Consulting on the Strategic Media approach and Media Mix for each incoming brief;
+            <br>• Increased budgets by 70% in Q4 vs. Q3 due to the implementation of Media Strategies in the Proposal process.
+        </p>
+
+        <p><strong>Digital Planning Manager</strong>
+            <br>SberMarketing
+            <br>Client: Sberbank, B2B banking products, and AI products.
+            <br>Jul 2021 - Jul 2023
+            <br>Key Responsibilities:
+            <br>• Managed the full cycle of campaigns from brief to reporting and invoicing;
+            <br>• Prepared digital campaign approaches for all key products;
+            <br>• Communicated with clients daily and coordinated projects across several departments;
+            <br>• While promoting the Ai Journey Conference I worked with extra tight deadlines and a large set of tasks, which helped me to develop excellent time-management and prioritization skills, as well as overachieved lead benchmark x2 times.
+        </p>
+
+        <p><strong>Junior Media Planner</strong>
+            <br>Dentsu X
+            <br>Client: Apple - Apple Arcade, Apple Search Ads, Apple Music, App Store.
+            <br>Jul 2019 - Jul 2021
+            <br>Key Responsibilities:
+            <br>• Managed full cycle of campaigns from brief to report and invoice;
+            <br>• Communicated with the central UK team and local Clients daily;
+            <br>• Reported both verbally and in writing every week, giving comments and optimization suggestions;
+            <br>• Prepared and presented QBRs and Annual Business Reviews;
+            <br>• Gave recommendations on CPL optimization across all channels and adapted ad copies for the Russian market.
+        </p>
+    </section>
+    
+    <section aria-labelledby="edu-heading">
+        <h2 id="edu-heading">Education</h2>
+        <p>Master of Arts (M.A.) - Content Strategy
+            <br>FH Joanneum, Graz
+            <br>Sep 2023 - Sep 2025
+        </p>
+        <p>Bachelor of Arts (B.A.) - Marketing
+            <br>Plekhanov Russian University of Economics, Moscow
+            <br>Aug 2016 - Aug 2020
+        </p>
+    </section>
+</main>
+<div class="contact">
+    <h2>Contact Information</h2>
+    <p>Email: anastasiia.zhestkova@edu.fh-joanneum.at
